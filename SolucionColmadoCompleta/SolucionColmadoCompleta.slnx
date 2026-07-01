@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ApiColmado/ApiColmado.csproj" />
+  <Project Path="Application/Application.csproj" />
+  <Project Path="Domain/Domain.csproj" />
+  <Project Path="Infraestructure/Infraestructure.csproj" />
+</Solution>
