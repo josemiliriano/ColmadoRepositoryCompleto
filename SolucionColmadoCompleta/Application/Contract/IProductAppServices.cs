@@ -15,5 +15,6 @@ namespace Application.Contract
         public void DeleteProduct(int id);
         public bool SoftDelete(int id);
         public List<CDProduct> GetProductNoDeleted();
+        public List<ProductCompleteDto> GetAllProductWihtCategory();
     }
 }
