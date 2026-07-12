@@ -30,7 +30,7 @@ namespace Application.Core
                     CategoryName = dto.CategoryName,
                     Description = dto.Description
                 };
-                return NewCategory;
+                return _repository.Add(NewCategory);
             }
             catch (AlreadyExistsException e)
             {
